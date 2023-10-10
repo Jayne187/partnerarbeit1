@@ -55,9 +55,9 @@ public class Library {
         Iterator it = this.liste.iterator();
 
         while (it.hasNext()) {
-            eBook b = (eBook) it.next();
-            if (b instanceof eBook) {
-                book.add((eBook) b);
+            Media m = (Media) it.next();
+            if (m instanceof eBook) {
+                book.add((eBook) m);
             }
         }
         return book;

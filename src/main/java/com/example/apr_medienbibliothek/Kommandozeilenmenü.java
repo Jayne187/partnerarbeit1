@@ -13,6 +13,7 @@ public class Kommandozeilenmenü {
             System.out.println("1) AUSGABE");
             System.out.println("2) RECHNEN");
             System.out.println("3) exit");
+            System.out.println("4) begruessung");
         }
 
         public void start() {
@@ -29,6 +30,9 @@ public class Kommandozeilenmenü {
                         this.rechnen();
                         break;
                     case "3":
+                        break;
+                    case "4":
+                        this.begruessung();
                         break;
                     default:
                         this.fehler();
@@ -52,6 +56,10 @@ public class Kommandozeilenmenü {
         {
             System.out.println("Sie können nur 1,2 oder 3 eingeben!");
         }
+
+        public void begruessung(){System.out.println("Hallo");}
+
+
 
 
     }
