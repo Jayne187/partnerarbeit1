@@ -1,10 +1,14 @@
 package com.example.apr_medienbibliothek;
-import java.util.ArrayList;
 import java.util.Scanner;
 
 public class Kommandozeilenmenü {
         Scanner scan;
-        public Kommandozeilenmenü() {
+        private Genre genre;
+
+    public Genre getGenre() {return genre;}
+    public void setGenre(Genre genre) {this.genre = genre;}
+
+    public Kommandozeilenmenü() {
             this.scan = new Scanner(System.in);
         }
 
@@ -14,6 +18,7 @@ public class Kommandozeilenmenü {
             System.out.println("2) RECHNEN");
             System.out.println("3) exit");
             System.out.println("4) begruessung");
+            System.out.println("5) Genre Ausgeben");
         }
 
         public void start() {
@@ -33,6 +38,9 @@ public class Kommandozeilenmenü {
                         break;
                     case "4":
                         this.begruessung();
+                        break;
+                    case "5":
+                        this.genreAusgeben();
                         break;
                     default:
                         this.fehler();
@@ -59,8 +67,6 @@ public class Kommandozeilenmenü {
 
         public void begruessung(){System.out.println("Hallo");}
 
-
-
-
+        public void genreAusgeben(){System.out.println(genre);}
     }
 

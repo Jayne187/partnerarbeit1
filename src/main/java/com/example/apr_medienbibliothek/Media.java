@@ -1,7 +1,5 @@
 package com.example.apr_medienbibliothek;
 
-import java.util.ArrayList;
-
 public abstract class Media {
     public Media(String titel, String kommentar, String erscheinungsdatum, Genre genre, Urheber urheber) {}
     private String titel;
