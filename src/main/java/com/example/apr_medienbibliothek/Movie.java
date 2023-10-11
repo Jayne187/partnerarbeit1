@@ -51,7 +51,6 @@ public class Movie extends Media{
         return hd;
     }
 
-    @Override
     public void setGenre(Genre genre) {
 
     }
