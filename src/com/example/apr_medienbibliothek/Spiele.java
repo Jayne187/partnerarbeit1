@@ -12,7 +12,5 @@ public class Spiele {
 
     public int getPreis() {return preis;}
 
-    public int getKonsolentyp() {
-        return konsolentyp;
-    }
+    public int getKonsolentyp() {return konsolentyp;}
 }
