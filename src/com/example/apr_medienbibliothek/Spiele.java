@@ -8,9 +8,7 @@ public class Spiele {
 
     public void setPreis(int preis) {this.preis = preis;}
 
-    public void setKonsolentyp(int konsolentyp) {
-        this.konsolentyp = konsolentyp;
-    }
+    public void setKonsolentyp(int konsolentyp) {this.konsolentyp = konsolentyp;}
 
     public int getPreis() {return preis;}
 
