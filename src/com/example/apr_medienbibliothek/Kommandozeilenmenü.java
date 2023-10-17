@@ -1,5 +1,5 @@
 package com.example.apr_medienbibliothek;
-import java.util.ArrayList;
+
 import java.util.Scanner;
 
 public class Kommandozeilenmenü {

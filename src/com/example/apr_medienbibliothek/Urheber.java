@@ -1,7 +1,5 @@
 package com.example.apr_medienbibliothek;
 
-import java.util.ArrayList;
-
 public class Urheber {
     private String vorname;
     private String nachname;
